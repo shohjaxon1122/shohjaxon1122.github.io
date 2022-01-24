@@ -1,4 +1,54 @@
+body {
+	background: #fff;
+}
 .fruits {
-	
+	background: #F3FBF8 !important;
+}
+.fruits-link, .fruits-link:hover {
+	text-decoration: none;
+}
+.bg-fa-user {
 	background: #F3FBF8;
+}
+.text-gold {
+	color: rgb(254,212,45);;
+}
+.w-60 {
+	width: 55%;
+}
+.w-70 {
+	width: 55%;
+}
+.w-80 {
+	width: 85%;
+}
+.font-weight-30k {
+	font-weight: 580;
+	letter-spacing: .2rem;
+	font-family: DM Sans;
+}
+.font-family-dmsans {
+	font-family: DM Sans;
+}
+.color-gray {
+	color: #6A6A6A;
+}
+.color-black {
+	color: black;
+}
+a, a:hover {
+	text-decoration: none;
+	color: black;
+}
+.navbar {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .9rem 1rem;
 }
