@@ -1,54 +1,82 @@
-body {
-	background: #fff;
+.bg-custom-color {
+    width: 100%;
+    background-image: url('../images/xbanner.png.pagespeed.ic.cglMh6XWYb.png');
 }
-.fruits {
-	background: #F3FBF8 !important;
+a {
+    text-decoration: none !important;
 }
-.fruits-link, .fruits-link:hover {
-	text-decoration: none;
+.text-h2 {
+    font-size: 1.3rem;
 }
-.bg-fa-user {
-	background: #F3FBF8;
+.text-danger-one {
+    color: #DB9A64 !important;
 }
-.text-gold {
-	color: rgb(254,212,45);;
+.btn {
+    transition: all .3s ease;
 }
-.w-60 {
-	width: 55%;
+.btn:hover {
+    background: #DB9A64 !important;
+    color: white !important;
 }
-.w-70 {
-	width: 55%;
+.border-danger-one {
+    border: 1px solid #DB9A64 !important;
 }
-.w-80 {
-	width: 85%;
+.border-danger-two {
+    border: .1px solid #be987875 !important;
 }
-.font-weight-30k {
-	font-weight: 580;
-	letter-spacing: .2rem;
-	font-family: DM Sans;
+.fs-people {
+    font-size: 4.5rem;
 }
-.font-family-dmsans {
-	font-family: DM Sans;
+.custom-bg_container-fluid {
+    background: #311e25 !important;
 }
-.color-gray {
-	color: #6A6A6A;
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #db9a64;
+    transition: width .6s ease;
 }
-.color-black {
-	color: black;
+.bg-custom {
+    background: #3b2930;
 }
-a, a:hover {
-	text-decoration: none;
-	color: black;
+.color-custom {
+    background: #6b4b40;
 }
-.navbar {
-	position: relative;
+.text-secondary-own {
+    color: #c9c9c9;
+}
+.carousel-control-next, .carousel-control-prev {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
 	-ms-flex-align: center;
 	align-items: center;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	padding: .9rem 1rem;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 15%;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	transition: opacity .15s ease;
+    background: transparent;
+    border: none;
+    list-style: none;
+}
+.hover-project:hover {
+    color: white !important;
+    background: #DB9A64 !important;
+}
+.hover-project:hover .hover-project-one{
+    color: white !important;
 }
